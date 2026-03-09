@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Mon parcours</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="image_moi.ico">
+
+    </head>
+
+    <body>
+     <div class="nav-bar">
+          <a href="index.html" class="nav-item">Accueil</a>
+          <a href="projets.html" class="nav-item">Projets</a>
+          <a href="parcours.html" class="nav-item" style="color: white; background-color: black; border-radius: 10px;">Mon parcours</a>
+          <a href="competences.html"  class="nav-item">Compétences</a>
+          <a href="contact.html"  class="nav-item">Contact</a>
+     
+      </div>
+  <h1>Mon parcours</h1>
+  <div class="parcours">
+        
+        <p>Depuis tout petit, je suis passionné d'informatique. J'ai commencé par faire du Python avec mon prof de CM2. Ensuite au collège, j'ai continué à m'interroger sur mon parcours. J'ai décidé de rejoindre le lycée Saint André à Niort qui possédait l'option NSI (Numérique et Sciences de l'Informatique). 
+          J'y ai acquis des bases solides. 
+          Après avoir effectué de nombreuses portes ouvertes, j'ai décidé de rejoindre l'ENSIBS pour pouvoir à terme faire le parcours d'Ingénieur Cybersécurité du logiciel.</p>
+          
+    <div class="tableau-parcours">
+      <table>
+      
+          <tr>
+            <th>Année</th>
+            <th> Etude </th> 
+            <th> Etat</th>
+            
+          </tr>
+
+          <tr>    
+            <td>2022-2025</td>
+            <td>Diplome ENSIBS - Ingénieur Cybersécurité du logiciel</td>
+            <td>Prévu</td>
+          </tr>
+          <tr>    
+            <td>2025-2027</td>
+            <td>PEI-A, ENSIBS Lorient-Vannes</td>
+            <td>En cours</td>
+          </tr>
+          <tr>    
+            <td>2022-2025</td>
+            <td>Lycée Saint André, Niort Baccalauréat (Mention Bien)</td>
+            <td></td>
+          </tr>
+          <tr>    
+            <td>2018-2022</td>
+            <td>Collège Roger Thabault, Mazières-En-Gâtine Brevet (Mention Très Bien)</td>
+            <td></td>
+          </tr>
+      </table>
+    </div>
+            <br>
+      
+           
+            <script>
+                function myFunction() {
+                    document.getElementById("metier_viser").style.fontSize ="15px";
+                    document.getElementById("metier_viser").style.color ="black";
+                    document.getElementById("metier_viser").style.fontWeight ="bold";
+                    document.getElementById("metier_viser").style.backgroundColor ="rgb(238, 242, 243)";
+                    document.getElementById("metier_viser").style.borderRadius ="10px";
+                    document.getElementById("metier_viser").style.padding ="1%";
+                    document.getElementById("metier_viser").style.maxWidth ="50%";
+                    document.getElementById("metier_viser").style.boxShadow ="0 5px 10px #074fbb";
+                    document.getElementById("metier_viser").innerHTML ="J'aimerais exercer le métier de pentester";
+                }
+
+
+            </script>
+            
+           <button type="button" onclick="myFunction()" class="button-parcours">Voir le metier que je vise</button>
+           <p id="metier_viser"></p> <br>
+           
+  </div> <h1>Diplome visé</h1>
+            <iframe src="https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplome-d-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-cybersecurite-du-logiciel-IINF00_207.html" width="800px" height="1000px"></iframe>
+    </body>
+
+
+</html>

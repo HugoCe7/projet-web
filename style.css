@@ -1,0 +1,449 @@
+html, body{
+    height: 100%;  
+    font-family: Arial;
+    background: #ffffff;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 210%;
+    background-color: #053277;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+h4{
+    color: rgb(85, 82, 82);
+}
+
+.nav-bar{
+    background: #ffffff; 
+    padding: 19px;
+    padding-left: 0px;
+    height: auto;
+    border-radius: 10px;    
+    border-bottom: solid #000000 2px;
+    width: 100%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+.nav-item{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-top: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 19px;
+    font-size: 105%;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    transition: 0.5s;
+
+}
+
+.nav-item:hover{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-accueil{
+    display: flex;
+    margin-top: 3%;
+    gap: 30px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+.accueil-cv{
+     background-color: rgb(238, 242, 243);
+    padding: 5%;
+     box-shadow: 0 5px 10px #074fbb;
+     max-width: 70%;
+     text-align: center;
+}
+.accueil-contact{
+     background-color: rgb(238, 242, 243);
+    padding: 5%;
+     box-shadow: 0 5px 10px #074fbb;
+     max-width: 100%;
+
+}
+
+.accueil-projet{
+    background-color: rgb(238, 242, 243);
+    padding: 5%;
+    box-shadow: 0 5px 10px #074fbb;
+    max-width: 80%;
+    text-align: center;
+
+}
+
+.img-nuit-code{
+     width: 300px;
+     height: auto;
+}
+
+.competences-container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+
+.contact-container{
+    display: inline-block;
+    margin-left:20%;
+    margin-top: 5%;
+ 
+}
+.contact-container ul{
+    display: flex;
+    background-color: rgb(238, 242, 243);
+    padding: 5%;
+    border-radius: 3%;
+    box-shadow: 0 10px 15px rgb(3, 67, 121)
+}
+
+
+
+table {
+    border-collapse: collapse;
+    }
+
+th, td {
+    border: 2px solid black ;
+    text-align: center;
+    padding: 6px ;
+    
+    }
+
+td:first-child{
+    text-align: left;
+
+}
+.tableau-parcours{
+    background-color: rgb(238, 242, 243);
+    padding: 3%;
+    box-shadow: 0 5px 10px #074fbb;
+    max-width: 55%;
+}
+
+th{
+    background-color: #074fbb;
+    color: white;
+}
+
+.parcours{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    text-align: justify;
+
+}
+
+.img-CV{
+    border: #000000 2px solid;
+    width: 40%;
+    transition: 0.5s;
+    
+
+}
+.img-CV:hover{
+    transform: scale(3.8);
+    box-shadow: 0 20px 30px rgb(3, 67, 121);
+    transition: 0.5s;
+}
+
+.description-section-projets{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 19px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    color: navy;
+    border: #000000 solid 3px;
+    background-color: rgb(238, 242, 243);
+    box-shadow: 0 5px 10px #074fbb;
+}
+
+.photo-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.photo-container{
+    width: 300px;
+    height: 220px;
+}
+
+.nuit_du_code_all-container{
+    margin-top: 3%;
+    display: flex;
+    gap: 10px;
+}
+
+.nuit_du_code-container{
+   text-align: center   ;}
+
+
+
+.gps_all-container{
+    margin-top: 3%;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.gps-container{
+   margin-left: 5%;
+}
+
+.gps-container video {
+    width: 500px; 
+    height: auto;
+}
+
+.solitaire_all-container{
+    margin-top: 3%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.solitaire-container{
+   margin-left: 5%;
+}
+
+.solitaire-container img{
+    width: 500px; 
+    height: auto;
+}
+
+.nuit_du_code-container video{
+    width: 65%;
+    height: 65%;
+}
+
+.button-contact{
+    display: inline-block;
+    margin-top: 8px ;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size:65%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.button-contact:hover {
+    background-color: #074fbb;
+    transform: scale(1.05);
+
+}
+
+.button-parcours{
+     
+    display: inline-block;
+    margin-top: 8px ;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size:80%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.button-parcours:hover {
+    background-color: #074fbb;
+    transform: scale(1.05);
+}
+
+.button-projets{
+    display: inline-block;
+    margin: 4px auto;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;    
+    padding: 10px 25px;
+    text-align: center;
+    font-size:90%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.button-projets:hover {
+    background-color: #074fbb;
+    transform: scale(1.05);  
+}
+
+.button-competences{  
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size:105%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.button-competences:hover {
+    background-color: #074fbb;
+    transform: scale(1.05);
+}
+
+#button-consultation{
+    display: inline-block;
+    margin: 4px auto;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 80%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+#button-consultation:hover {
+    background-color: #074fbb;
+    transform: scale(1.05);
+
+}
+
+.consultation-container{
+    margin-top: 10%;
+    text-align: right;
+}
+
+.button-play{   
+    display: inline-block;
+    margin: 4px auto;
+    margin-top: 3%;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size:155%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button-play:hover{  
+    background-color: #074fbb;
+    transform: scale(1.05);
+
+}
+
+.photo-container img{
+    width: 100%;
+    height: 100%;
+    border: #000000 solid 3px;
+}
+
+.photo-container:hover{
+    transform: scale(1.05);
+}
+
+.photo-container .titre{
+    background:black;
+    color: white;
+    width: 270px;
+    text-align: center;
+    padding: 16px;
+    opacity: 0;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.photo-container:hover .titre{
+    opacity: 1;
+}
+
+.container-projets{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 4%;
+}
+
+.monImage{
+    max-width: 800px;
+    max-height: auto;
+}
+
+.logo-contact{
+    width: 40px;
+    height: 40px;
+}
+
+iframe{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#description-text-competences{
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2%;
+    background-color: rgb(238, 242, 243);
+    padding: 3%;
+    box-shadow: 0 5px 10px #074fbb;
+     max-width: 80%;}
+
+.video_poo{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#button-solitaire{
+    display: inline-block;
+    margin: 4px auto;
+   
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size:155%;    
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#button-solitaire:hover{  
+    background-color: #074fbb;
+    transform: scale(1.05);
+}

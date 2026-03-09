@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+            <title>Contact</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="shortcut icon" href="image_moi.ico">
+            <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        <div class="nav-bar">
+                <a href="index.html" class="nav-item">Accueil</a>
+                <a href="projets.html" class="nav-item">Projets</a>
+                <a href="parcours.html" class="nav-item" >Mon parcours</a>
+                <a href="competences.html"  class="nav-item">Compétences</a>
+                <a href="contact.html"  class="nav-item" style="color: white; background-color: black; border-radius: 10px;">Contact</a>
+                
+        </div>
+        <h1>Contact</h1>
+        <div class="contact-container">
+                
+                <br>
+            <ul>
+                <li> 
+                    <h2><img src="logo_email.png" alt="logo email" class="logo-contact"> E-mail : <a href="mailto:hugo.cerniac@gmail.com" class="button-contact" style="width: 170px;">Me contacter</a></h2>
+                </li>
+                <li>
+                    <h2><img src="logo_linkedin.png" alt="logo linkedin" class="logo-contact"> LinkedIn : <a href="https://www.linkedin.com/in/hugo-cerniac-16b7713a2"  class="button-contact">Voir mon profil</a></h2>
+                </li>
+                <li>
+                    <h2><img src="logo_github.png" alt="logo github" class="logo-contact"> Mon GitHub : <a href="https://github.com/HugoCe7" class="button-contact">Voir mon profil</a></h2>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="consultation-container">
+            <button type="button" id="button-consultation" onclick="document.getElementById('consultation').innerHTML = new Date().toLocaleString('fr-FR', {weekday:'long', year:'numeric', month:'long', day:'numeric', hour:'2-digit', minute:'2-digit', second:'2-digit'})">Cliquer ici.</button>
+            <p id="consultation"></p>
+        </div>
+
+    </body>
+
+
+</html>
